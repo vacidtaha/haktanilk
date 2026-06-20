@@ -65,8 +65,8 @@ export default function Home() {
         </a>
       </section>
 
-      <section id="content" className="grid grid-cols-2 gap-0 bg-white">
-        <div className="flex aspect-[5/4] flex-col justify-center bg-white p-12 sm:p-16 lg:p-20">
+      <section id="content" className="grid grid-cols-1 gap-0 bg-white md:grid-cols-2">
+        <div className="flex flex-col justify-center bg-white p-10 sm:p-16 md:aspect-[5/4] lg:p-20">
           <h2 className="font-fraunces text-4xl font-bold leading-tight text-gray-900 sm:text-5xl lg:text-6xl">
             We Grow Brands That People Love
           </h2>
@@ -88,7 +88,7 @@ export default function Home() {
         <div className="relative aspect-[5/4] bg-gray-300">
           <Image src="/2.jpg" alt="" fill className="object-cover" />
         </div>
-        <div className="flex aspect-[5/4] flex-col justify-center bg-white p-12 sm:p-16 lg:p-20">
+        <div className="flex flex-col justify-center bg-white p-10 sm:p-16 md:aspect-[5/4] lg:p-20">
           <h2 className="font-fraunces text-4xl font-bold leading-tight text-gray-900 sm:text-5xl lg:text-6xl">
             Campaigns That Drive Real Results
           </h2>
@@ -168,7 +168,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="grid grid-cols-4 gap-0 bg-white">
+      <section className="grid grid-cols-2 gap-0 bg-white md:grid-cols-4">
         <div className="relative aspect-[4/5] bg-gray-200">
           <Image src="/5.jpg" alt="" fill className="object-cover" />
         </div>
